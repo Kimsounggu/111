@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>개인과제</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="movietitle">
+      <header>내배캠 TMDB 영화 목록</header>
+    </div>
+    <form id="search">
+      <label for="search-input">검색 하기 :</label>
+      <input
+        type="text"
+        id="search-input"
+        placeholder="영화 제목을 입력하세요!"
+      />
+      <button type="submit" id="search-button">검색</button>
+    </form>
+    <!-- 카드 본체 -->
+    <div id="movies-container"></div>
+
+    <script src="./movie.js"></script>
+  </body>
+</html>
