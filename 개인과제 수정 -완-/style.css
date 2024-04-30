@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+}
+
+
+
+
+.movietitle{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+form{
+
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding : 10px;
+}
+
+#movies-container{
+margin-top: 30px;
+font-weight: 600;
+text-align: center;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(7, auto);
+gap: 20px;
+}
+
+.poster-image{
+
+width: 200px;
+}
